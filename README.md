@@ -1,2 +1,2 @@
 # Dip_java
-Java programs written during the training course
+I will keep on updating this repo with Java programs written during my training course.
