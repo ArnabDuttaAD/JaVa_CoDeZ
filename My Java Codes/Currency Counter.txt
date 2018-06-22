@@ -1,0 +1,35 @@
+import java.util.Scanner;
+
+public class Count
+{
+	public static void main(String args[])
+	{
+		Scanner sc = new Scanner(System.in);
+		System.out.print("Enter the amount to count the required numbers of notes and coins:");
+		int n = sc.nextInt();
+		int a = n/2000;
+		int b = n%2000;
+		int z = b/500;
+		int y = b%500;
+		int x = y/200;
+		int w = y%200;
+		int c = w/100;
+		int d = w%100;
+		int e = d/50;
+		int f = d%50;
+		int g = f/20;
+		int h = f%20;
+		int i = h/10;
+		int j = h%10;
+		
+		System.out.println("There are total of "+a+" numbers of 2000 Rupee note(s)");
+		System.out.println("There are total of "+z+" numbers of 500 Rupee note(s)");
+		System.out.println("There are total of "+x+" numbers of 200 Rupee note(s)");
+		System.out.println("There are total of "+c+" numbers of 100 Rupee note(s)");
+		System.out.println("There are total of "+e+" numbers of 50 Rupee note(s)");
+		System.out.println("There are total of "+g+" numbers of 20 Rupee note(s)");
+		System.out.println("There are total of "+i+" numbers of 10 Rupee note(s)");
+		System.out.println("There are total of "+j+" numbers of Coin(s)");
+	}
+
+}
