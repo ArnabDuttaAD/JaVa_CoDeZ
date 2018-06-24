@@ -1,0 +1,33 @@
+import java.util.Scanner;
+
+public class greaterAmongAll 
+{
+
+	public static void main(String[] args) 
+	{
+		
+		Scanner sc = new Scanner(System.in);
+		int i;
+		System.out.println("How many numbers you want to enter: ");
+		int num = sc.nextInt();
+		
+		System.out.println("Please enter "+num+" numbers");
+		
+		int max = sc.nextInt();
+		
+		for (i=1; i<num; i++)
+		{
+			int temp = sc.nextInt();
+			
+				if(temp<max)
+				
+					continue;
+			
+				else 
+					
+					max = temp;
+		}
+		
+		System.out.println("The Largest number is: " +max);
+
+	}
